@@ -53,6 +53,7 @@ body{
     font-size: 20px;
   }
   .grid-container{
+    align-items: center;
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 10px;
@@ -202,7 +203,7 @@ input[type=email],select{
   
 }
 .contactsec1{
-  background-color: #caaece;
+  background-color: #dbcad4;
   width: 30%;
   margin: auto;
   padding: 10px;
