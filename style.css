@@ -11,13 +11,19 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .section2{
-    background-color: rgb(184, 191, 251);
-    width: 80%;
-    margin: auto;
-    padding: 2%;
-    height: 80%;
-    font-size: 25PX;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 100%;
+  height: 100vh;
+  /* background: #222; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.swiper{
+  width: 80%;
+  height: fit-content;
+}
+.swiper-slide img{
+  width: 100%;
 }
 .button_shop{
     background-color: white;
@@ -208,12 +214,13 @@ input[type=email],select{
 .section7{
   background-color: bisque;
   width: 100%;
+  font-size: 10;
 }
-.flex-container{
-  display: inline-flex;
+.grid-container{
+  display: grid;
  }
- .flex-container > div {
-  background-color: #f1f1f1;
+ .grid-container > div {
+  /* background-color: #f1f1f1; */
   margin: 10px;
   padding: 20px;
   font-size: 30px;
